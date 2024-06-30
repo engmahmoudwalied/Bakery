@@ -1,0 +1,127 @@
+
+#Home{
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.navbar{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: var(--transition);
+}
+
+
+/* Global style */
+:root {
+  --main-color: #8f754f;
+}
+.main-color {
+  color: var(--main-color);
+}
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+/* Bootstrab editing */
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-link {
+  color: #303030;
+  transition: color 0.5s ease-in-out;
+}
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--main-color);
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("../images/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* bootstrab editing */
+.first-btn .btn,
+.sec-btn .btn {
+  color: #fff;
+}
+.first-btn .btn:hover,
+.sec-btn .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#f:hover{
+  color: blue;
+
+}
+#g:hover{
+  color: #910606;
+
+
+}
+#l:hover{
+  color: blue;
+
+}
+#t:hover{
+  color: blue;
+
+}
+
+.footer .social li {
+    color: var(--main-color);
+    transition: all .3s ease-in-out;
+
+  }
+
+  .footer .social li:hover {
+    transform: scale(1.1);
+    
+  }
+
+h4{
+  margin-top: 10px;
+  color: #555353;
+  font-weight: bold;
+}
+p{
+  color: #555353;
+  font-weight: 620;
+}
+h2{
+  font-weight: 700;
+  color: #555353;
+}
+.foot{
+  background-color: #403d38;
+}
+.custome-border {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(206, 193, 193);
+}
+
+.footer{
+  background-color: #353330;
+}
+.nav-item{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+
+
